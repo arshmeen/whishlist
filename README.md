@@ -9,7 +9,7 @@ Delete Wishes: Unwanted wishes can be removed from the list at any time.
 Technologies Used
 Front-end: HTML, CSS, JavaScript
 How to Use
-Clone the repository: 
+Clone the repository: https://github.com/arshmeen/whishlist
 Navigate to the project directory: cd wishlist-website
 Open the index.html file in your browser: open index.html
 Screenshots
