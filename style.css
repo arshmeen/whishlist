@@ -1,0 +1,108 @@
+:root {
+	--text-color-primary: #f9fafb;
+	--background-color: #002D62;
+	--button-background-color: #AA4A44; /* Added a variable for the button background color */
+	--button-text-color: #ffffff; 
+	--check-color :#3b3838;
+	--font-family : 'Georgia', serif;
+}
+
+body {
+	background-color: var(--background-color);
+	font-family: var(--font-family);
+}
+
+.main {
+	padding: 2rem 0;
+	width: 30vw;
+	margin-left: 50vw;
+	transform: translateX(-50%);
+}
+  
+
+.todo-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center; /* Center children horizontally */
+}
+
+#heading1 {
+	color: var(--text-color-primary);
+	text-align: center;
+	margin-bottom: 0.5rem;
+	font-family: var(--font-family);
+}
+
+.input {
+	border-radius: 4px;
+	font-size: 1.25rem;
+	padding: 0.5rem;
+	border: none;
+	width: 25vw;
+	margin-bottom: 0.5rem;
+	font-family: var(--font-family);
+}
+
+.input:focus {
+	outline: none;
+}
+
+.button.btn-primary.cursor {
+	font-size: 1.25rem; /* Increase the font size */
+	padding: 0.75rem 1.5rem; /* Increase the padding for a larger button */
+	background-color: var(--button-background-color); /* Use the button background color variable */
+	color: var(--button-text-color); /* Use the button text color variable */
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: var(--font-family);
+}
+
+.button.btn-primary.cursor:hover {
+	background-color: #800020; /* Darken the button color on hover */
+}
+
+.button.btn-primary.cursor:active {
+	background-color: #EE4B2B; /* Lighten the button color on active */
+}
+
+.t-checkbox {
+	width: 1.25rem;
+	height: 1.25rem;
+}
+  
+.btn-primary {
+	font-size: 1.25rem;
+	padding: 0.5rem 0.875rem;
+}
+  
+.todo {
+	color: var(--text-color-primary);
+	font-size: 1.5rem;
+}
+  
+.todos-container {
+	height: 70vh;
+	overflow-y: auto;
+}
+  
+.t-pointer {
+	cursor: pointer;
+}
+  
+.todos {
+	padding-bottom: 0.5rem;
+}
+  
+.todo-text {
+	word-wrap: break-word;
+}
+  
+.checked-todo {
+	text-decoration: line-through;
+	color: var(--text-color-primary);
+}
+  
+.del-btn {
+	color: var(--check-color);
+}
